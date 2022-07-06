@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Banner Part CSS */
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5), #2f3232e7), url(images/donation4.jpg);
+    background: linear-gradient(to top , gray);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    font-size: 20px;
+}
+.banner-text a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 10px;
+    color: white;
+    font-size: 25px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 255, 238), teal);
+}
+
+/* Donate part CSS */
+#donate-part{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.list{
+    display:flex;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.text ul li{
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.062);
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+}
+#my-donate{
+    color: red;
+    background-color: rgba(255, 166, 0, 0.416);
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: rgba(128, 128, 128, 0.274);
+}
+#donate-part a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 255, 238), teal);
+}
+
+
+/* Donate Plan */
+#donate-item{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#donate-item p{
+    margin-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    text-align: left;
+}
+.half-width{
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.bgcolor1{
+    background-color: rgba(119, 236, 236, 0.16);
+}
+.bgcolor2{
+    background-color: rgba(215, 207, 106, 0.199);
+}
+.bgcolor3{
+    background-color: rgba(203, 117, 203, 0.123);
+}
+.half-width img{
+    margin: 50px 0px 0px 20px;
+}
+.half-width h3{
+    font-size: 25px;
+    margin: 25px 0px 0px 20px;
+}
+.half-width p{
+    margin: 25px 0px 50px 20px;
+    color: grey;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+
+
+/* News Contain */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+.width{
+    width: 100%;
+}
+h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details{
+    margin-right: 30px;
+    text-align: justify;
+}
+.qus{
+    width: fit-content;
+    color: white;
+    font-size: 25px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 255, 238), teal);
+}
+.width img{
+    width: 100%;
+}
+img{
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+    background-color: rgba(0, 255, 255, 0.187);
+}
+
+.ebox, .sbox{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    margin: -2px;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.189);
+}
+.ebox{
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.559);
+}
+.sbox{
+    width: 150px;
+    color: red;
+    background-color: aquamarine;
+}
+
+
+/* footer part */
+#hooter-part{
+    width: 100%;
+    background-color: rgb(35, 33, 33);
+    position: absolute;
+}
+.footer-contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-contain h1{
+    margin-top: 30px;
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+.footer-contain P{
+    color: white;
+    margin-bottom: 35px;
+}
